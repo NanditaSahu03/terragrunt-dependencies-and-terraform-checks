@@ -3,7 +3,7 @@ name: Tflint Checks on Terraform Code
 on:
   push:
     branches: 
-      - master
+      - main
 
 permissions: read-all
 
