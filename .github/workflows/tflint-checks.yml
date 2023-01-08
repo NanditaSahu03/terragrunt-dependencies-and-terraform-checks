@@ -38,5 +38,5 @@ jobs:
       
 # Run tflint command in each directory recursively
     - name: Run TFLint
-      run: tflint -f compact --recursive --force 
+      run: tflint -f compact --recursive
 
