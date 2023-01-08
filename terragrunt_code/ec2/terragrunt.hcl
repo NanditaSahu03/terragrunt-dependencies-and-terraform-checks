@@ -25,7 +25,7 @@ dependency "iam_instance_profile" {
 inputs = {
         name                   = "Demo"
         ami                    = "ami-0574da719dca65348"
-        instance_type          = "t2.llarge"
+        instance_type          = "t2.large"
         key_name               = "testkeypair"
         vpc_security_group_ids = [dependency.security_group.outputs.security_group_id]
         iam_instance_profile   = dependency.iam_instance_profile.outputs.instance_profile_name
